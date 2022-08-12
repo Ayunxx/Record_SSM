@@ -1,4 +1,4 @@
-package com.ssm.mybatis.utils;
+package com.ssm.mybatis_3.utils;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
