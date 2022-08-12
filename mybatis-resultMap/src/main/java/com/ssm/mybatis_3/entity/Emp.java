@@ -11,6 +11,20 @@ public class Emp {
 
     private String gender;
 
+    private Dept dept;
+
+    public Emp(Dept dept) {
+        this.dept = dept;
+    }
+
+    public Dept getDept() {
+        return dept;
+    }
+
+    public void setDept(Dept dept) {
+        this.dept = dept;
+    }
+
     public Emp(Integer empId, String empName, Integer age, String gender) {
         this.empId = empId;
         this.empName = empName;
@@ -60,6 +74,7 @@ public class Emp {
                 ", empName='" + empName + '\'' +
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
+                ", dept=" + dept +
                 '}';
     }
 }

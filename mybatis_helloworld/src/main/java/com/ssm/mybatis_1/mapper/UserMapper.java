@@ -1,4 +1,4 @@
-package com.ssm.mybatis.mapper;
+package com.ssm.mybatis_1.mapper;
 
 public interface UserMapper {
     /*添加*/

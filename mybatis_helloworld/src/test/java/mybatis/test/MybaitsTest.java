@@ -1,7 +1,7 @@
 package mybatis.test;
 
-import com.ssm.mybatis.mapper.UserMapper;
-import com.ssm.mybatis.utils.SqlSessionUtil;
+import com.ssm.mybatis_1.mapper.UserMapper;
+import com.ssm.mybatis_1.utils.SqlSessionUtil;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

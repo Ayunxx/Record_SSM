@@ -1,4 +1,4 @@
-package com.ssm.mybatis.entity;
+package com.ssm.mybatis_1.entity;
 
 public class User {
 

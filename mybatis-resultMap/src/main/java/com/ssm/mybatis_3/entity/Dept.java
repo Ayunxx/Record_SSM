@@ -1,10 +1,14 @@
 package com.ssm.mybatis_3.entity;
 
+import java.util.List;
+
 public class Dept {
 
     private Integer deptId;
 
     private String deptName;
+
+    private List<Emp> emps;
 
     public Dept(Integer deptId, String deptName) {
         this.deptId = deptId;
@@ -35,6 +39,7 @@ public class Dept {
         return "Dept{" +
                 "deptId=" + deptId +
                 ", deptName='" + deptName + '\'' +
+                ", emps=" + emps +
                 '}';
     }
 }
